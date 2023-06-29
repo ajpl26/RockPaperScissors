@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    background-color: rgb(2, 96, 96);
+    font-family: sans-serif;
+}
+
+.score{
+    color: rgb(224, 224, 224);
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score h2{
+    font-size: 30px;
+}
+
+.score p{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+.intro{
+    color: rgb(224, 224, 224);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* opacity: 0; */
+
+    transition: opacity 0.5s ease;
+
+}
+
+.intro h1{
+    font-size: 50px;
+}
+
+.intro button,
+.match button,
+.result button{
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: rgb(224, 224, 224);
+    font-size: 20px;
+    background-color: rgb(111, 111, 111);
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.match{
+    width: 100vb;
+    /* padding: 10px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease 0.5s;
+
+}
+
+.winner{
+    margin: 20px;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    font-size: 50px;
+    /* display: flex; */
+}
+
+.hands,
+ .options{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.hands img{
+    border: 5px solid rgb(224, 224, 224);
+    border-radius: 20px;
+    /* transition: 0.2s ease; */
+}
+
+.player-hand{
+    transform: rotateY(180deg);
+}
+
+.result{
+    margin: 20px;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    font-size: 50px;
+    width: 100vb;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease 0.5s;
+    
+}
+
+
+
+
+div.fadeOut{
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+div.fadeIn{
+    opacity: 1;
+    pointer-events: all;
+}
+
