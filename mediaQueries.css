@@ -1,0 +1,33 @@
+@media screen and (max-width :820px){
+    .score{
+       color: rgb(224, 224, 224);
+       height: 20vh;
+       width: 100%;
+   }
+ 
+   .intro h1{
+       font-size: 30px;
+       width: 80;
+       
+    }
+ 
+    .match{
+       width: 100%;
+    }
+    .hands img{
+       width: 150px
+    }
+ 
+    .options{
+       margin: 30px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   
+   }
+ 
+   .result-display{
+    font-size: 25px;
+    align-items: center;
+   }
+ }
